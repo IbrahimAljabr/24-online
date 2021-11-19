@@ -1,0 +1,35 @@
+
+{
+  "expo": {
+    "name": "24-online",
+    "slug": "24-online",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/store.png",
+    "splash": {
+      "image": "./assets/loading/loading.gif",
+      "resizeMode": "contain",
+      "backgroundColor": "white"
+
+      
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/store.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/store.png"
+    }
+  }
+}
